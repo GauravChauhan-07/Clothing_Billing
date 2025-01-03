@@ -3,7 +3,7 @@ Module Database_Connection
     Public conn As MySqlConnection
     Public Sub network()
         conn = New MySqlConnection
-        conn.ConnectionString = "server=localhost;user=root;password='1234';database=cloths"
+        conn.ConnectionString = "server=localhost;user=root;password='Jatins555';database=cloths"
         conn.Open()
         If conn.State <> ConnectionState.Open Then
             MessageBox.Show("No Connection")
